@@ -13,10 +13,13 @@ import matplotlib.pyplot as plt
 
 """# New code with changes
 
-This is the new changed code. Here we already include the energy spectrum, as it has to be calculated during the timesteps. Everythingg that has been added by us is marked as follows:
-####
+This is the new changed code. Here we already include the energy spectrum, as it has to be calculated during the timesteps. Everything that has been added by us is marked as follows:
+
+\####
+
 \# explanation
-####
+
+\####
 """
 
 def WALE_LES(q, LES=True):
@@ -261,7 +264,7 @@ def WALE_LES(q, LES=True):
 
 
     ####
-    # Energy spectrum (3D isotropic shell average)
+    # Energy spectrum
     # Saved every two seconds
     ####
     def energy_spectrum_3d(u, v, w):
